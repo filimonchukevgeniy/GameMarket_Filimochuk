@@ -1,5 +1,17 @@
 body {
     background: linear-gradient(to bottom, #3f3ff7d2, #79c5dfe3);
     background-size: 100% 15000%;
-    opacity: 0 ;
+    .button-container {
+        position: absolute;
+        top: 10px;
+        left: 220px;
+        
+    }
+
+    button {
+        font-size: 20px; /* Змінюємо розмір шрифту */
+        padding: 10px 20px; /* Збільшуємо внутрішні відступи кнопки (верхній та нижній) */
+    }
+    
+    
 }
