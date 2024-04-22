@@ -3,14 +3,14 @@ body {
     background-size: 100% 15000%;
     .button-container {
         position: absolute;
-        top: 10px;
-        left: 220px;
+        
         
     }
 
     button {
         font-size: 20px; /* Змінюємо розмір шрифту */
         padding: 10px 20px; /* Збільшуємо внутрішні відступи кнопки (верхній та нижній) */
+        
     }
 
     .custom-button {
@@ -19,6 +19,24 @@ body {
         width: 150px; /* Фіксований розмір кнопки по ширині */
         height: 50px; /* Фіксований розмір кнопки по висоті */
         margin-bottom: 10px; /* Простір між кнопками */
+        left: 300px;
     
     
+    }
+    .card { 
+        background-color: white; /* Білий фон для "карточки" */
+        border: 1px solid #ccc; /* Обрамлення */
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* Тінь для глибини */
+        padding: 20px; /* Внутрішній відступ */
+        margin: 20px; /* Зовнішній відступ */
+        text-align: center; /* Центрування тексту */
+        width: 400px; /* Фіксований розмір кнопки по ширині */
+        height: 50px; /* Фіксований розмір кнопки по висоті */
+    }
+
+    .button-container {
+        margin-top: 20px; /* Відступ зверху в контейнері з кнопками */
+        top: 30px;
+        left: 40px;
+    }
 }
