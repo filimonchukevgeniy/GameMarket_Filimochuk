@@ -1,6 +1,7 @@
 body {
-    background: linear-gradient(to bottom, #3f3ff7d2, #79c5dfe3);
+    background: linear-gradient(to bottom, #606552d2, #e4e4e4e3);
     background-size: 100% 15000%;
+
     .button-container {
         position: absolute;
         top: 10px;
@@ -13,12 +14,104 @@ body {
         padding: 10px 20px; /* Збільшуємо внутрішні відступи кнопки (верхній та нижній) */
     }
 
+    
+    
+    .header-container {
+        background: #2e2715; /* Сірий колір фону */
+        padding: 100px 700px;
+        width: 150px; 
+        height: 10px;
+        position: relative;
+        top: -40px;
+        left: -10px;
+        color: aliceblue;
+
+
+    }
+
+    .footer-container {
+
+        background: #2e2715; /* Сірий колір фону */
+        padding: 100px 700px;
+        width: 150px; 
+        height: 10px;
+        position: relative;
+        top: 1840px;
+        left: -10px;
+        color: aliceblue;
+    }
+
+    .card {
+
+        background: #cdcdcd ;
+        margin-bottom: 10px;
+        position: relative;
+        top: 200px;
+        left: 10px;
+        width: 400px; 
+        height: 350px;
+        border-radius: 20px;
+        
+        
+
+
+
+    }
+
+    .card-container {
+        position: absolute;
+        top: 10px;
+        left: 50px;
+        
+        
+        
+      }
+
+    .card-container2 {
+        position: absolute;
+        top: 10px;
+        left: 510px;
+        
+        
+        
+      }
+
+    .card-container3 {
+        position: absolute;
+        top: 10px;
+        left: 970px;
+        
+        
+        
+      }
+
+
     .custom-button {
         font-size: 20px; /* Змінюємо розмір шрифту */
         padding: 10px 20px; /* Збільшуємо внутрішні відступи кнопки (верхній та нижній) */
         width: 150px; /* Фіксований розмір кнопки по ширині */
         height: 50px; /* Фіксований розмір кнопки по висоті */
         margin-bottom: 10px; /* Простір між кнопками */
-    
-    
+        position: relative;
+        top: 20px;
+        left: 22px;
+        border-radius: 20px;
+
+        cursor: pointer; /* Курсор у вигляді руки */
+        transition: transform 0.2s ease-in-out; /* Плавний перехід при трансформації */
+        
+    }
+    .custom-button:hover{
+        transform: scale(1.1); /* Збільшення розміру на 20% */
+    }
+
+    .foto {
+        position: relative;
+        top: 10px;
+        left: 25px;
+        border-radius: 20px;
+        
+    }
+
+
 }
