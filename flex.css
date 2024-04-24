@@ -1,0 +1,19 @@
+body{
+    background: linear-gradient(to bottom, #cbcec4d2, #616034e3);
+    background-size: 100% 14000%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    gap: 20px;
+
+    div {
+
+        border: 2px solid rgb(139, 139, 139);
+
+
+    }
+
+}
