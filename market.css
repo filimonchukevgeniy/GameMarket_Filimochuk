@@ -1,0 +1,35 @@
+body {
+    background: rgb(219, 210, 183);
+    display: flex;
+    flex-direction: column;
+    
+    .header {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        font-size: 40px;
+        background: rgb(104, 95, 67);
+    }
+
+    .block-conteiner {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+
+    }
+
+    .card {
+        width: 300px;
+        height: 400px;
+        background: rgba(194, 191, 177, 0.774);
+        border-radius: 20px;
+
+    }
+
+    .block {
+        display:  flex;
+        flex-direction: column;
+        justify-content: center;
+
+    }
+}
