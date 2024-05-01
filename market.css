@@ -1,35 +1,85 @@
-body {
-    background: rgb(219, 210, 183);
+body{
+    background-color: rgb(255, 255, 255);
     display: flex;
     flex-direction: column;
-    
-    .header {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        font-size: 40px;
-        background: rgb(104, 95, 67);
-    }
-
-    .block-conteiner {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-
-    }
-
-    .card {
-        width: 300px;
-        height: 400px;
-        background: rgba(194, 191, 177, 0.774);
-        border-radius: 20px;
-
-    }
-
-    .block {
-        display:  flex;
-        flex-direction: column;
-        justify-content: center;
-
-    }
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
 }
+
+content {
+    display: flex;
+    gap: 10px;
+    background-color: rgb(207, 207, 207);
+    width: 980;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+
+header{
+    font-size: 50px;
+    border-radius: 20px;
+    background-color: red;
+    width: 800px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    border: 1px solid rgb(105, 105, 105);
+}
+
+div{
+    border: 1px solid rgb(139, 139, 139);
+
+}
+
+.items{
+    background-color: rgb(231, 231, 231);
+    padding: 10px;
+    width: 700px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+    
+}
+.item{
+
+    background-color: rgb(255, 255, 255);
+    width: 300px;
+    height: 500px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+}
+
+.part {
+
+
+    
+}
+.item-image {
+
+    height: 350px;
+
+}
+footer{
+    font-size: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    background-color: rgb(231, 231, 231);
+    padding: 10px;
+    width: 800px;
+    border-radius: 10px;
+    border: 1px solid rgb(139, 139, 139);
+
+}
+
