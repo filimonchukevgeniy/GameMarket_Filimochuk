@@ -5,12 +5,13 @@ body{
     justify-content: center;
     align-items: center;
     gap: 10px;
+    font-family: 'Roboto', sans-serif;
 }
 
 content {
     display: flex;
     gap: 10px;
-    background-color: rgb(207, 207, 207);
+    background-color: rgb(255, 255, 255);
     width: 980;
     display: flex;
     flex-direction: row;
@@ -30,11 +31,7 @@ header{
     text-align: center;
     color: white;
     border: 1px solid rgb(105, 105, 105);
-}
-
-div{
-    border: 1px solid rgb(139, 139, 139);
-
+    font-weight: bold;
 }
 
 .items{
@@ -46,6 +43,7 @@ div{
     justify-content: space-around;
     flex-wrap: wrap;
     gap: 20px;
+    border-radius: 30px;
     
 }
 .item{
@@ -53,23 +51,86 @@ div{
     background-color: rgb(255, 255, 255);
     width: 300px;
     height: 500px;
-    border-radius: 10px;
+    border-radius: 30px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: start;
 }
 
-.part {
+.parts-pay {
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: center;
 
 
-    
 }
+
+.parts-pay img{
+
+    height: 24px;
+
+}
+.price {
+    border: 1px solid rgb(215, 215, 215);
+    border-radius: 10px;
+    font-size: 20px;
+    width: 230px;
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.price div :first-child {
+    width: 200px;
+    font-size: 16px;
+    text-decoration-line : line-through ;
+}
+
+.price div :first-child span{
+    text-decoration-line : line-through ;
+}
+
+.price sup{
+    font-size: 10px;
+}
+
 .item-image {
 
-    height: 350px;
+    height: 300px;
+    border-radius: 30px;
 
 }
+.bonus {
+    background-color: red;
+    
+    color: white;
+    width: 230px;
+    height: 40px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.bonus div :first-child {
+    width: 100px;
+    font-size: 14px;
+
+}
+
+.bonus :last-child span{
+    font-size: 24px;
+}
+
+.bonus :last-child  sup{
+    font-size: 12px;
+}
+
 footer{
     font-size: 10px;
     display: flex;
