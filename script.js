@@ -1,103 +1,115 @@
 let itemArray = [
     {
-        firstName : "Віталій",
-        lastName : "Шатківський",
-        age : 143 ,
-        subject : "CS",
-        photo : "https://lyceum.ztu.edu.ua/wp-content/uploads/2023/03/dsc07815-683x1024.jpg",
-        url : "https://lyceum.ztu.edu.ua/team/shatkivskyy-v-m/",
-        sale : 1593
+        "Name": "Мотокоса",
+        "sale1": 5758,
+        "sale2": 4758,
+        "photo": "img/мотокоса1.jpg",
+        "bonusSale": 5258
     },
     {
-        firstName : "Наталія",
-        lastName : "Венцель",
-        age : 18 ,
-        subject : "Адміністрація",
-        photo : "https://lyceum.ztu.edu.ua/wp-content/uploads/2023/04/ventsel-nataliya-vasylivna-683x1024.jpg",
-        url : "https://lyceum.ztu.edu.ua/team/ventsel-n-v/",
-        sale : 4295
+        "Name": "Мотокоса",
+        "sale1": 5137,
+        "sale2": 4137,
+        "photo": "img/мотокоса2.jpg",
+        "bonusSale": 4637
     },
     {
-        firstName : "Наталія",
-        lastName : "Кучер",
-        age : 18 ,
-        subject : "Фізика",
-        photo : "https://lyceum.ztu.edu.ua/wp-content/uploads/2023/04/kucher-nataliya-viktorivna-683x1024.jpg",
-        url : "https://lyceum.ztu.edu.ua/team/kucher-n-v/",
-        sale : 3765
-    },
-
-    {
-        firstName : "Ірина",
-        lastName : "Боровська-Карандюк",
-        age : 18 ,
-        subject : "Укр мова",
-        photo : "https://lyceum.ztu.edu.ua/wp-content/uploads/2023/04/borovska-karandyuk-iryna-anatoliyivna-683x1024.jpg",
-        url : "https://lyceum.ztu.edu.ua/team/borovska-karandyuk-iryna-anatoliyivna/",
-        sale : 3356
+        "Name": "Мотокоса",
+        "sale1": 5985,
+        "sale2": 4985,
+        "photo": "img/мотокоса3.jpg",
+        "bonusSale": 5485
     },
     {
-        firstName : "Лариса",
-        lastName : "Забелло",
-        age : 18 ,
-        subject : "Англ мова",
-        photo : "https://lyceum.ztu.edu.ua/wp-content/uploads/2023/04/zabello-larysa-oleksandrivna-682x1024.jpg",
-        url : "https://lyceum.ztu.edu.ua/team/zabello-l-o/",
-        sale : 0
+        "Name": "Мотокоса",
+        "sale1": 5342,
+        "sale2": 4342,
+        "photo": "img/мотокоса4.jpg",
+        "bonusSale": 4842
     },
     {
-        firstName : "Наталія",
-        lastName : "Зинюк",
-        age : 18 ,
-        subject : "Хімія і Біологія",
-        photo : "https://lyceum.ztu.edu.ua/wp-content/uploads/2024/01/zynjuk-natalija-mykolayivna-683x1024.jpg",
-        url : "https://lyceum.ztu.edu.ua/team/zynyuk-nataliya-mykolayivna/",
-        sale : 2653
+        "Name": "Мотокоса",
+        "sale1": 5619,
+        "sale2": 4619,
+        "photo": "img/мотокоса5.jpg",
+        "bonusSale": 5119
     },
     {
-        firstName : "Анжела",
-        lastName : "Лознюк",
-        age : 18 ,
-        subject : "Хімія і Біологія",
-        photo : "https://lyceum.ztu.edu.ua/wp-content/uploads/2023/10/photo_2023-10-25_15-46-33-1-693x1024.jpg",
-        url : "https://lyceum.ztu.edu.ua/team/loznyuk-anzhela-leonidivna/",
-        sale : 3746
+        "Name": "Мотокоса",
+        "sale1": 5876,
+        "sale2": 4876,
+        "photo": "img/мотокоса6.jpg",
+        "bonusSale": 5376
     },
     {
-        firstName : "Наталія",
-        lastName : "Зинюк",
-        age : 18 ,
-        subject : "Хімія і Біологія",
-        photo : "https://lyceum.ztu.edu.ua/wp-content/uploads/2023/01/hlibko-iryna-anatoliyevna.jpg",
-        url : "https://lyceum.ztu.edu.ua/team/hlibko-iryna-anatoliyivna/",
-        sale : 3473
+        "Name": "Мотокоса",
+        "sale1": 5268,
+        "sale2": 4268,
+        "photo": "img/мотокоса7.png",
+        "bonusSale": 4768
     },
     {
-        firstName : "Василь",
-        lastName : "Бабій",
-        age : 65 ,
-        subject : "Хімія і Біологія",
-        photo : "https://lyceum.ztu.edu.ua/wp-content/uploads/2023/04/babiy-vasyl-dmytrovych-683x1024.jpg",
-        url : "https://lyceum.ztu.edu.ua/team/babiy-vasyl-dmytrovych/",
-        sale : 1473
+        "Name": "Мотокоса",
+        "sale1": 5543,
+        "sale2": 4543,
+        "photo": "img/мотокоса5.png",
+        "bonusSale": 5043
     },
     {
-        firstName : "Василь",
-        lastName : "Бабій",
-        age : 61 ,
-        subject : "Хімія і Біологія",
-        photo : "https://lyceum.ztu.edu.ua/wp-content/uploads/2023/04/sevruk-ivan-hryhorovych-683x1024.jpg",
-        url : "https://lyceum.ztu.edu.ua/team/sevruk-i-h/",
-        sale : 1473
+        "Name": "Газонокосарка",
+        "sale1": 7342,
+        "sale2": 6342,
+        "photo": "img/Газонокосарка1.jpg",
+        "bonusSale": 6842
     },
     {
-        firstName : "Вікторія",
-        lastName : "Нелипович",
-        age : 18 ,
-        subject : "Хімія і Біологія",
-        photo : "https://lyceum.ztu.edu.ua/wp-content/uploads/2023/04/sevruk-ivan-hryhorovych-683x1024.jpg",
-        url : "https://lyceum.ztu.edu.ua/team/sevruk-i-h/",
-        sale : 1473
+        "Name": "Газонокосарка",
+        "sale1": 7897,
+        "sale2": 6897,
+        "photo": "img/Газонокосарка2.jpg",
+        "bonusSale": 7397
+    },
+    {
+        "Name": "Газонокосарка",
+        "sale1": 7523,
+        "sale2": 6523,
+        "photo": "img/Газонокосарка3.jpg",
+        "bonusSale": 7023
+    },
+    {
+        "Name": "Газонокосарка",
+        "sale1": 7214,
+        "sale2": 6214,
+        "photo": "img/Газонокосарка4.jpg",
+        "bonusSale": 6714
+    },
+    {
+        "Name": "Газонокосарка",
+        "sale1": 7985,
+        "sale2": 6985,
+        "photo": "img/Газонокосарка5.webp",
+        "bonusSale": 7485
+    },
+    {
+        "Name": "Газонокосарка",
+        "sale1": 7701,
+        "sale2": 6701,
+        "photo": "img/Газонокосарка6.jpg",
+        "bonusSale": 7201
+    },
+    {
+        "Name": "Газонокосарка",
+        "sale1": 7438,
+        "sale2": 6438,
+        "photo": "img/Газонокосарка7.jpg",
+        "bonusSale": 6938
+    },
+    {
+        "Name": "Газонокосарка",
+        "sale1": 7897,
+        "sale2": 6897,
+        "photo": "img/Газонокосарка2.jpg",
+        "bonusSale": 7397
     },
 
 ]
@@ -108,12 +120,33 @@ itemArray.forEach((item, index) => {
     itemsDiv.innerHTML += 
         `
         <div class="item">
-            <h2>Вчитель № ${index + 1} з ${itemArray.length}</h2>
-            <p>${item.lastName} ${item.firstName}</p>
-            <p>Вік: ${item.age}</p>
-            <p><img src="${item.photo}" class="item-image"> </p>
-            <p><a href="${item.url}" target="_blank">Профіль</a></p>
-            <p>Ціна : ${item.sale} грн</p>
-        </div>
+                <p>${item.Name}</p>
+                <div>
+                    <img class="item-image" src="${item.photo}">
+                </div>
+                <div class="parts-pay">
+                    <div><img src="img/mololapka.png"></div>
+                    <div><img src="img/pb.jfif"></div>
+                </div>
+                <div class="price">
+                    <div>
+                        <span>${item.sale1}</span><sup>грн</sup>
+                        
+                        <span>${item.sale2}</span><sup>грн</sup>
+                    </div>
+                </div>
+
+                <div class="bonus">
+                    <div>Ціна за купоном</div>
+                    <div >
+                        <span class="bonus-div">${item.bonusSale} </span>
+                        <sup>грн</sup>
+                    </div>
+                    
+                    
+                </div>
+
+
+            </div>
         `;
 });
