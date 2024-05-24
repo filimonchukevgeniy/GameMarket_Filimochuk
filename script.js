@@ -125,8 +125,8 @@ itemArray.forEach((item, index) => {
                     <img class="item-image" src="${item.photo}">
                 </div>
                 <div class="parts-pay">
-                    <div><img src="img/mololapka.png"></div>
-                    <div><img src="img/pb.jfif"></div>
+                    <div><img src="img/mololapka.png">4</div>
+                    <div><img src="img/pb.jfif">8</div>
                 </div>
                 <div class="price">
                     <div>
