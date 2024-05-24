@@ -1,0 +1,133 @@
+body {
+    background: linear-gradient(to bottom, #595c52d2, #bebc92e3);
+    background-size: 100% 500%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    
+    align-items: start;
+
+    .buttton{
+        display: flex;
+    }
+
+    header {
+        background-color: rgb(42, 31, 12);
+        
+        width: 1500px; 
+        height: 200px;
+        size: 40px;
+        color: white;
+        display: flex;
+        flex: row;
+        align-items: center;
+        justify-content: center;
+        
+
+
+    }
+
+    article {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        
+    }
+
+    .items {
+        margin-right: 30px;
+        border-radius: 20px;
+        
+        
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+
+        
+    }
+
+    .item{
+        background-color: rgb(218, 218, 218);
+        
+        margin-right: 30px;
+        margin-bottom: 30px;
+        border-radius: 20px;
+        width: 600px;
+        height: 800px;
+        border: 3px solid rgb(75, 75, 75);
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+    }
+
+    .gameName {
+        size: 40px;
+        padding: 10px;
+    }
+
+    .fullName {
+        padding: 10px;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .photo {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+
+    }
+
+    .photo :first-child {
+        width: 300px;
+        height: 300px;
+        margin-right: 10px;
+    }
+
+    .photo :last-child {
+        width: 260px;
+        height: 300px;
+    }
+
+    .button-conteiner {
+        width: 400px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-bottom: 10px;
+        padding: 10px;
+        
+    }
+
+    .button {
+        border-radius: 20px;
+        background-color: rgb(198, 217, 232);
+        width: 400px;
+        height: 25px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        border: 3px solid rgb(192, 192, 192);
+        margin-bottom: 10px;
+
+
+        cursor: pointer; /* Курсор у вигляді руки */
+        transition: transform 0.2s ease-in-out;
+        
+    }
+
+    .button:hover{
+        transform: scale(1.1); /* Збільшення розміру на 20% */
+    }
+
+
+    
+    
+    
+
+
+   
+
+}
